@@ -1,1 +1,5 @@
 language: python
+
+script: 
+ - export FLASK_APP=Assignment_1.py
+ - flask run
