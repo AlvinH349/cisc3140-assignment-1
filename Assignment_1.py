@@ -59,3 +59,5 @@ def changeDate():
     req = request.form
     return redirect(req['date'] + "/media")
 
+if __name__ == "__main__":
+    app.run(debug=False)
