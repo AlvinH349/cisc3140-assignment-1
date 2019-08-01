@@ -1,4 +1,4 @@
-from Assignment_1 import app
+from app import app
 import unittest
 
 
