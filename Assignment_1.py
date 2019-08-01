@@ -6,7 +6,7 @@ import ssl
 app = Flask(__name__)
 
 
-@app.route("/today")
+@app.route("/")
 def default_apod():
     api_key = 'DEMO_KEY'
     url = "https://api.nasa.gov/planetary/apod?api_key=" + api_key
